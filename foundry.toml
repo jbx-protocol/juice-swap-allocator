@@ -2,5 +2,18 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
+remappings = [
+    '@juice-swap-allocator=contracts/',
+    '@jbx-protocol/=node_modules/@jbx-protocol/',
+    '@openzeppelin=node_modules/@openzeppelin',
+    '@paulrberg=node_modules/@paulrberg',
+    '@uniswap/v3-periphery=lib/v3-periphery/',
+    '@uniswap/v3-core=node_modules/@uniswap/v3-core',
+    '@uniswap/v2-periphery=node_modules/@uniswap/v2-periphery',
+    '@uniswap/v2-core=node_modules/@uniswap/v2-core',
+    'ds-test=lib/ds-test/src/',
+    'forge-std/=lib/forge-std/src/',
+    'prb-math=node_modules/prb-math',
+]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
